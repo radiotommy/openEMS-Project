@@ -6,7 +6,7 @@
 	url = ../QCSXCAD.git
 [submodule "AppCSXCAD"]
 	path = AppCSXCAD
-	url = ../AppCSXCAD.git
+	url = https://github.com/thliebig/AppCSXCAD.git
 [submodule "openEMS"]
 	path = openEMS
 	url = ../openEMS.git
