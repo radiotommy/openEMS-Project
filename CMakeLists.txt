@@ -7,11 +7,7 @@
 # https://cmake.org/cmake/help/latest/command/cmake_minimum_required.html
 cmake_minimum_required(VERSION 3.0...3.10)
 
-<<<<<<< HEAD
-cmake_minimum_required(VERSION 3.10)
-=======
 PROJECT(openEMS-Project CXX)
->>>>>>> master
 
 if (CMAKE_TOOLCHAIN_FILE)
     message(STATUS "Using CMAKE_TOOLCHAIN_FILE: " ${CMAKE_TOOLCHAIN_FILE})

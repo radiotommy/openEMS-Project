@@ -343,7 +343,9 @@ fi
 build "$BASEDIR" "$TMPDIR" "$NJOBS" "$LOG_FILE" "$STDOUT" \
       "-DBUILD_APPCSXCAD=$BUILD_GUI" \
       "-DCMAKE_INSTALL_PREFIX=$INSTALL_PATH" \
-      "-DWITH_MPI=$WITH_MPI"
+      "-DWITH_MPI=$WITH_MPI" \
+      "-DWITH_CUDA=1"
+
 
 ##### additional packages #####
 
